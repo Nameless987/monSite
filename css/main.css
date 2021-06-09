@@ -59,3 +59,16 @@ body{
     height: 100vh;
     background: linear-gradient(-45deg, rgb(106,59,255), rgb(0, 166, 172));
 }
+
+.profil{
+    width: 500px;
+    height: 800px;
+    border-radius: 25px;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(240,103,34), rgb(254,218,60));
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 15%;
+    margin-right: 85%;
+    margin-top: 50px;
+}
