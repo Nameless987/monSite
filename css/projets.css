@@ -1,0 +1,21 @@
+.rectangle{
+    width: 50%;
+    height: 200%;
+    font-size: 17px;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+
+.title{
+    padding-top: 50px;
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+}
+
+.title p{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
