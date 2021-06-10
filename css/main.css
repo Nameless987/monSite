@@ -54,21 +54,60 @@ nav{
 
 body{
     font-family: 'Helvetica Neue', sans-serif;
-    background: rgb(61,150,215);
     width: 100%;
     height: 100vh;
-    background: linear-gradient(-45deg, rgb(106,59,255), rgb(0, 166, 172));
+    background: rgb(230,218,206);
 }
 
-.profil{
-    width: 500px;
-    height: 800px;
-    border-radius: 25px;
+.conteneur {
+    width: 60%;
+    height: 70%;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 20%;
+}
+
+.boite {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.boiteGauche {
+    float: left;
+    background-color: rgb(244,236,230);
+    box-shadow: -15px 15px 20px rgb(200,188,176);
+    font-size: 30px;
     text-align: center;
-    background: linear-gradient(45deg, rgb(240,103,34), rgb(254,218,60));
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    margin-left: 15%;
-    margin-right: 85%;
-    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.boiteDroite {
+    float: right;
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+.sep{
+    width: 100%;
+    height: 3px;
+    background: blue;
+}
+
+.etu{
+    padding-top: 40%;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
