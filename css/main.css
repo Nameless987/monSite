@@ -60,15 +60,15 @@ body{
 }
 
 .conteneur {
-    width: 60%;
-    height: 70%;
+    width: 90%;
+    height: 75%;
     margin: 0;
     padding-top: 50px;
     padding-left: 20%;
 }
 
 .boite {
-    width: 50%;
+    width: 40%;
     height: 100%;
     margin: 0;
     display: flex;
@@ -83,26 +83,27 @@ body{
     font-size: 30px;
     text-align: center;
     padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
 }
 
-.boiteDroite {
-    float: right;
+.boiteMiddle {
+    float: left;
     background-color: white;
     color: black;
     padding-top: 10px;
     letter-spacing: 1px;
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .text{
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sep{
@@ -117,7 +118,7 @@ body{
     text-align: justify;
     font-size: 17px;
     letter-spacing: 1px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 5px;
     padding-right: 5px;
 }
